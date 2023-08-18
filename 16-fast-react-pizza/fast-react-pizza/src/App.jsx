@@ -39,7 +39,6 @@ const router = createBrowserRouter([
       {
         path: "/order/orders",
         element: <AllOrders />,
-        // loader: allOrdersLoader,
       },
       {
         path: "/order/:orderId",
